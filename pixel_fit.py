@@ -14,7 +14,7 @@
 # The output is a multi-extension fits file, each extension containing
 # the individual Gaussian parameters for each line.
 # Three extensions are named *flag*. These flags indicate the goodness of the fit.
-# Flag 1.0 = The fit did not work, 0.0 = Fitting processes withouot errors.
+# Flag 1.0 = The fit did not work, 0.0 = Fitting processes without errors.
 
 # The user can play around with the way starting values are defined, the bounds
 # in the curve_fit lines and add more gaussians (although that would require many
