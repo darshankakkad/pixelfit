@@ -3,3 +3,5 @@ Interested in a simple fitting code that models OIII, Hbeta, NII, Halpha and SII
 
 
 AI: To add a test data set with the final output. 
+
+14 feb: To add a ppxf model to these spectra. 
