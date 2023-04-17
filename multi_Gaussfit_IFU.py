@@ -70,7 +70,7 @@ class IFUFitter:
         guess = [1.0,1.0]
         bounds_low = [-np.inf,-np.inf]
         bounds_high = [np.inf,np.inf]
-        lines = [4860,4959,5007,6549,6562,6585,6716,6731]
+        lines = [4860,4959,5007,6549,6562,6585,6716,6731] # A replacement .json file with line list under progress
         for i in range(len(lines)):
             guess += [lines[i],1.5,1000]
             bounds_low += [lines[i]-10,1.0,0]
